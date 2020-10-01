@@ -1,4 +1,3 @@
-Lucas Pimenta
-
-Dimas Kurniawan
-Vikas K. Sethi
+1. Lucas Pimenta
+2. Dimas Kurniawan
+3. Vikas K. Sethi
