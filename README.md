@@ -15,7 +15,7 @@ This repo contains the <b> first projects </b> that everyone made in their progr
 
 <b>Do leave a star🌟 on this repository</b> 
 
-If you need help regarding how to fork and work in this repo, read instructions.md
+If you need help regarding how to fork and work in this repo, read <b>instructions.md</b>
 
 
 ### Folder Structure
