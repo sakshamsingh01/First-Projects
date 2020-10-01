@@ -11,5 +11,5 @@ This is a simple todo list project,
   - mark list item as done
 
 ### Screenshoot
-![picture](assets/img/display1.png)
-![picture](assets/img/display2.png)
+![picture](assets/images/display1.png)
+![picture](assets/images/display2.png)
