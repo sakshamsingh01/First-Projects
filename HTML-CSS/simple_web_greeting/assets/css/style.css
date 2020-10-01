@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+
+.container {
+    max-width: 480;
+}
+
+body {
+    font-family: "Nanum Pen Script", cursive;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}

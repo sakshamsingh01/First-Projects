@@ -14,7 +14,7 @@ This repo contains the <b> first projects </b> that everyone made in their progr
 6. <b>Do read CONTRIBUTING.md for important instructions</b>
 7. <b>Make sure to follow the folder structure given below</b>
 
-<b>Do leave a star🌟 on this repository</b> 
+<h3>Do star🌟 this repository! Your contribution will help the beginners to learn!</h3> 
 
 If you need help regarding how to fork and work in this repo, read <b>instructions.md</b>
 
