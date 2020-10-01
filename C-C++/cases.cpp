@@ -49,4 +49,4 @@ void binary::cases(){
     a.cases();
     
     return 0;
-}
+ }
