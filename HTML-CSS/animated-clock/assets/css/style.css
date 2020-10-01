@@ -1,0 +1,129 @@
+@keyframes rotate-h-bom { from { transform:rotate(159.5deg); } to { transform:rotate(519.5deg); } }@keyframes rotate-m-bom { from { transform:rotate(117.4deg); } to { transform:rotate(477.4deg); } }@keyframes rotate-s-bom { from { transform:rotate(204deg); } to { transform:rotate(564deg); } }#clock-bom .clock-h { animation: rotate-h-bom 43200s linear infinite; }#clock-bom .clock-m { animation: rotate-m-bom 3600s linear infinite; }#clock-bom .clock-s { animation: rotate-s-bom 60s linear infinite; }
+.clock {}
+
+.clock-face {
+	/*background: #f0f0f0;*/
+	border-radius: 50%;
+	height: 120px;
+	margin: 0 auto;
+	position: relative;
+	width: 0px;
+}
+.clock-h, .clock-m, .clock-s {
+	box-shadow: rgba(0,0,0,.17) 0 0 2px;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transition: .48s;
+}
+.clock-h, .clock-m {
+	background: #3e3e3e;
+	border-radius: 2px;
+	margin-left: -2px;
+	width: 4px;
+}
+.clock-h {
+	height: 37px;
+	margin-top: -29px;
+	transform-origin: 2px 29px;
+	z-index: 2;
+}
+.clock-m {
+	height: 52px;
+	margin-top: -43px;
+	transform-origin: 2px 43px;
+	z-index: 3;
+}
+.clock-s {
+	background: #30b55a;
+	border-radius: 2px;
+	height: 57px;
+	margin: -48px 0 0 -1px;
+	transform-origin: 1px 48px;
+	width: 2px;
+	z-index: 4;
+}
+.clock-face:after, .clock-s:after {
+	border-radius: 50%;
+	content: '';
+	height: 8px;
+	left: 50%;
+	margin: -4px 0 0 -4px;
+	position: absolute;
+	width: 8px;
+	z-index: 5;
+}
+.clock-face:after {
+	background: #e6e6e6;
+	box-shadow: inset #30b55a 0 0 0 3px;
+	top: 50%;
+}
+.clock-s:after {
+	background: #f6f6f6;
+	box-shadow: inset #30b55a 0 0 0 1px;
+	top: 21%;
+}
+
+/* Optional Dial */
+.clock-dial span {
+	height: 100%;
+	margin-left: -4px;
+	position: absolute;
+	width: 8px;
+}
+.clock-dial span:after, .clock-dial span:nth-child(12):before {
+	background: #fff;
+	box-shadow: inset #ccc 0 0 0 1px;
+	content: '';
+	left: 50%;
+	position: absolute;
+	top: 8px;
+}
+
+/* Standard Style */
+.clock-dial span:after {
+	border-radius: 50%;
+	height: 7px;
+	margin-left: -3.5px;
+	width: 7px;
+}
+
+/* 12, 3, 6, 9 Style */
+.clock-dial span:nth-child(3):after, .clock-dial span:nth-child(6):after, .clock-dial span:nth-child(9):after, .clock-dial span:nth-child(12):after {
+	border-radius: 0;
+	height: 12px;
+	margin-left: -2px;
+	width: 4px;
+}
+/* 12 Fancy Style */
+.clock-dial span:nth-child(12):after {
+	background: transparent;
+	border-top: 17px solid #ccc;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	margin-left: -5.5px;
+	z-index: 1;
+}
+.clock-dial span:nth-child(12):before {
+	background: transparent;
+	border-top: 14px solid #fff;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	margin-top: 1px;
+	margin-left: -3.5px;
+	z-index: 2;
+}
+
+/* Dial Positions */ 
+.clock-dial span:nth-child(1) { transform: rotate(30deg); }
+.clock-dial span:nth-child(2) { transform: rotate(60deg); }
+.clock-dial span:nth-child(3) { transform: rotate(90deg); }
+.clock-dial span:nth-child(4) { transform: rotate(120deg); }
+.clock-dial span:nth-child(5) { transform: rotate(150deg); }
+.clock-dial span:nth-child(6) { transform: rotate(180deg); }
+.clock-dial span:nth-child(7) { transform: rotate(210deg); }
+.clock-dial span:nth-child(8) { transform: rotate(240deg); }
+.clock-dial span:nth-child(9) { transform: rotate(270deg); }
+.clock-dial span:nth-child(10) { transform: rotate(300deg); }
+.clock-dial span:nth-child(11) { transform: rotate(330deg); }
+.clock-dial span:nth-child(12) {}
