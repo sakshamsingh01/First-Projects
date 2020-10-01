@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtq"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:gravity="center|center_horizontal"
+        android:text="TextView" />
+
+    <ProgressBar
+        android:id="@+id/quizeprog"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5" />
+
+    <TextView
+        android:id="@+id/txtremain"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:gravity="center|center_horizontal"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/truebut"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="#2196F3"
+        android:text="True"
+        android:textColor="#F5F0EF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/falsebut"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="#44FF00"
+        android:text="false"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+</LinearLayout>

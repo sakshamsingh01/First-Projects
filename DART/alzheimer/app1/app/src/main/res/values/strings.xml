@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">app1</string>
+    <string name="my_laptopnamae">asus</string>
+
+
+
+    <string name="correct_text">Correct</string>
+    <string name="incorrect_text">incorrect!</string>
+    <string name="first_score_text">0/10</string>
+    <string name="incorrecte_toast_message">not good</string>
+    <string name="correct_toast_message">great!</string>
+
+
+
+    <string name="q1">A honey bee can fly</string>
+    <string name="q2">Ajelly fish is 90% water</string>
+    <string name="q3">Elephant are the only mammals</string>
+    <string name="q4">cat can here ultrasound</string>
+    <string name="q5">A brain weight about 3 pound</string>
+    <string name="q6">The toung is the fastest healing part of body</string>
+    <string name="q7">American , on average , eat 18 acres of\"pizza "\ a day</string>
+    <string name="q8">A kanguroo can jump 30 feet</string>
+    <string name="q9">A pigeon feather are heavier the bones</string>
+    <string name="q10">tallest man was 8 feet and 11 inches</string>
+
+</resources>
