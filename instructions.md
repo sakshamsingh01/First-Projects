@@ -3,7 +3,7 @@
 
   - You can find the **Fork** button under your profile picture.
   - Simply click on that button and this repository will be forked in no time.
-  - If you don't understand what that **Fork** button does, you may want to read this. [article](https://www.earthdatascience.org/workshops/intro-version-control-git/about-forks/)
+  - If you don't understand what that **Fork** button does, you may want to read this [article](https://www.earthdatascience.org/workshops/intro-version-control-git/about-forks/).
 
 ### Step Two: Clone the Forked repository
 
@@ -21,7 +21,7 @@
 
 ### Step Three: Push your changes to your forked repository
 
-  - You have made many interesting changes. So now how do we get these changes online. Follow the step below
+  - You have made many interesting changes. So now how do we get these changes online. Follow the step below:
 
    - Open the **Termninal (or Command Line)** and **cd** to the **First-Projects** folder:
    > cd <path to the *First Project* folder>
