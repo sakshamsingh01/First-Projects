@@ -1,6 +1,6 @@
 # My First Program
 
-This is a simple if/else program I had made in my beginning, made with [Pascal](https://en.wikipedia.org/wiki/Pascal_(programming_language)).
+This is a simple `if/else` program I had made in my beginning of my programming learning, made with [Pascal](https://en.wikipedia.org/wiki/Pascal_(programming_language)).
 
 ## How to run .pas files
 
