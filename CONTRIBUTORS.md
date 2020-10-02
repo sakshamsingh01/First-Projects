@@ -3,7 +3,7 @@
 **Alone we can do so little, together we can do so much. 
                                                                        - Helen Keller**
 
-***Thanks to these wonderful people for making and an effort and contributing.*** 
+***Thanks to these wonderful people for making an effort and contributing.*** 
 
 1. Lucas Pimenta
 2. Dimas Kurniawan
