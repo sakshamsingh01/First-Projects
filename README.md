@@ -1,5 +1,7 @@
 <h1> First-Projects🚀 </h1>
 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
+
 >“To move forward, you must first take a step”
 
 Everyone starts as a beginner! So why not help each-other and grow together!
