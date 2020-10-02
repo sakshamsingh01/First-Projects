@@ -1,32 +1,10 @@
-<h1> First-Projects🚀 </h1>
+# RPS - Rock Paper Scissors
+## -By: chirathkdev
 
->“To move forward, you must first take a step”
+### How it was made and Instructions to use:
 
-Everyone starts as a beginner! So why not help each-other and grow together!
-This repo contains the <b> first projects </b> that everyone made in their programming journey.
+The project was made using official SwiftUI documentation and the help from Great Paul Hudson at Hacking With Swift.
 
-### Contribution Guidelines
-1. Fork this repo
-2. Create a folder(if there isn't already) of the programming language in which you made your first project.
-3. Create a sub-folder with your project name.
-4. Upload your project alongwith a <b>Readme.md</b> file for beginners to understand.
-5. Add your name in <b>Contributors.md</b>
-6. <b>Do read CONTRIBUTING.md for important instructions</b>
-7. <b>Make sure to follow the folder structure given below</b>
+Just open the project from Xcode 11 or 12 and Run in any selected simulator or device to play the game. It is a simple game to understand structs, functions, enums and extensions in SwiftUI.
 
-<h3>Do star🌟 this repository! Your contribution will help the beginners to learn!</h3> 
-
-If you need help regarding how to fork and work in this repo, read <b>instructions.md</b>
-
-
-### Folder Structure
-
-```
-First-Projects
-  -(Programming Language Name)
-    -(Project Name)
-      -Project Files
-      -Readme.md
-``
-
-
+Feel free to expand the game beyond to even Rock, Paper, Scissors, Lizard, Spock ✌🏾
