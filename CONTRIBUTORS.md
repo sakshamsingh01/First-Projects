@@ -1,7 +1,9 @@
-Alone we can do so little, together we can do so much. 
-                                                                       - Helen Keller
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
 
-Thanks to these wonderful people for making and an effort and contributing. 
+**Alone we can do so little, together we can do so much. 
+                                                                       - Helen Keller**
+
+***Thanks to these wonderful people for making and an effort and contributing.*** 
 
 1. Lucas Pimenta
 2. Dimas Kurniawan
