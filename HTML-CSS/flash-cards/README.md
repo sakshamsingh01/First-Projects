@@ -2,4 +2,4 @@
 
 ## By- Prisha Srivastava
 
-## Flash Cards created using HTML,CSS,JAVASCRIPT which help in memorizing and learning stuff.
+ Flash Cards created using HTML,CSS,JAVASCRIPT which help in memorizing and learning stuff.
