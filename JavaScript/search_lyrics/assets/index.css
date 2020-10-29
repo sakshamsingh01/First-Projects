@@ -1,0 +1,193 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'gochi hand',cursive;
+    background:linear-gradient(to right, rgba(19, 22, 201, 0.829),rgb(26, 16, 77))
+}
+
+header{
+    overflow: hidden;
+    background:linear-gradient(to right,rgba(236, 14, 14, 0.493),
+                                        rgba(138, 22, 233, 0.993)),
+                                        url(guitar.jpg);
+    height:80vh;
+    width:100%;
+    top:-10px;
+    border:none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    clip-path:polygon(2% 11% ,3% 7% ,96% 16%, 96% 27%, 91% 79%,10% 93%, 8% 89%);
+    
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    top:40%;
+    left:50%;
+    display:flex;
+    flex-direction: column;
+    color:#fff;
+    transform: translate(-50%, -50%);
+ 
+
+}
+
+.container h1 {
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+form {
+    position: relative;
+    width: 500px;
+    display:flex;
+} 
+
+input{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    padding:15px 30px;
+    border:none;
+    border-radius: 50px;
+    outline:none;
+    font-size: 20px;
+    
+}
+
+button {
+    width:100px;
+    max-width: 100%;
+    background:linear-gradient(to right,rgb(255, 8, 222),
+                                        rgba(29, 5, 240, 0.993));
+                                        
+    background-size: cover;
+    height:49px;
+    color:white;
+    border-radius: 50px;
+    border:none;
+    position: absolute;
+    right:2px;
+    bottom:2px;
+    font-weight: 600;
+    outline:none;
+
+}
+
+button:hover {
+    transform: scale(0.95);
+}
+
+li {
+    list-style:none;
+}
+
+.result {
+    color:white;
+    
+    text-align:center;
+    font-family: cursive;
+    margin-top:30px;
+    position: relative;
+    display:block;
+}
+
+.song-list {
+    list-style:none;
+    display:flex;
+    flex-direction:column;
+    position: absolute;
+    left:50%;
+    margin-left:20px;
+
+    transform:translate(-50%,0);
+    background:linear-gradient(to left,
+                                rgba(66, 66, 65, 0.842),              
+                                rgb(40,40,40))               
+}
+
+.song-list li{
+    margin-bottom:20px;
+    width:500px;
+    justify-content:space-evenly;
+    letter-spacing:1px;
+    font-weight: 500;
+    font-size:18px;
+    text-decoration:overline;
+    text-decoration-color: rgb(12,147,100);
+    position: relative;
+    line-height:30px;
+}
+
+.song-list li::after{
+    content:'';
+    position: absolute;
+    right: -20px;
+    left:-20px;
+    bottom: -10px;
+    height:2px;
+    width:100%;
+    
+    background:green;
+   
+
+
+}
+.song-list li div{
+    float:left;
+}
+
+.song-list li span{
+    float:right;
+    background-color:#9E2092;
+    border:0;
+    font-size:15px;
+    margin-top:10px;
+    border-radius:10px;
+    color:#fff;
+    cursor: pointer;
+    font-weight: 500;
+    padding:4px 10px;
+    text-transform:capitalize;
+
+}
+
+@media only screen and (max-width:800px) {
+    header {
+        height: 70vh;
+        width:95%vw;
+    }
+    .container{
+        font-size:20px;
+    }
+    form{
+        max-width:300px;
+    }
+    input{
+        width:100%;
+        height: 40px;
+        padding:12px 20px;
+    }
+    button{
+        width:80px;
+        max-width:100%;
+    }
+    button{
+        width:80px;
+        max-width:100%;
+    }
+    .song-list li{
+        margin-bottom: 15px;
+        max-width:300px;
+        letter-spacing:0.5px;
+        font-size:17px;
+    }
+}
