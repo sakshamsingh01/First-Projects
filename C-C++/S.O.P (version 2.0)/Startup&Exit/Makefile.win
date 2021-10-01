@@ -1,0 +1,28 @@
+# Project: S.O.P (version 2.0)
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = "S.O.P\ (version\ 2.0).o"
+LINKOBJ  = "S.O.P (version 2.0).o"
+LIBS     = -L"C:/CodeBlocks/MinGW/lib" -L"C:/CodeBlocks/MinGW/mingw32/lib" -static-libgcc -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32 -lwinmm
+INCS     = -I"C:/CodeBlocks/MinGW/include" -I"C:/CodeBlocks/MinGW/lib/gcc/mingw32/5.1.0/include"
+CXXINCS  = -I"C:/CodeBlocks/MinGW/include" -I"C:/CodeBlocks/MinGW/lib/gcc/mingw32/5.1.0/include" -I"C:/CodeBlocks/MinGW/lib/gcc/mingw32/5.1.0/include/c++"
+BIN      = "S.O.P (version 2.0).exe"
+CXXFLAGS = $(CXXINCS) -ansi -fno-asm -traditional-cpp
+CFLAGS   = $(INCS) -ansi -fno-asm -traditional-cpp
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+"S.O.P\ (version\ 2.0).o": S.O.P\ (version\ 2.0).cpp
+	$(CPP) -c "S.O.P (version 2.0).cpp" -o "S.O.P (version 2.0).o" $(CXXFLAGS)
