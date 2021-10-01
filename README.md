@@ -1,5 +1,7 @@
 <h1> First-Projects🚀 </h1>
 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
+
 >“To move forward, you must first take a step”
 
 Everyone starts as a beginner! So why not help each-other and grow together!
@@ -11,7 +13,8 @@ This repo contains the <b> first projects </b> that everyone made in their progr
 3. Create a sub-folder with your project name.
 4. Upload your project alongwith a <b>Readme.md</b> file for beginners to understand.
 5. Add your name in <b>Contributors.md</b>
-6. <b>Make sure to follow the folder structure given below</b>
+6. <b>Do read CONTRIBUTING.md for important instructions</b>
+7. <b>Make sure to follow the folder structure given below</b>
 
 <b>Do leave a star🌟 on this repository</b> 
 
@@ -26,4 +29,4 @@ First-Projects
     -(Project Name)
       -Project Files
       -Readme.md
-``
+
