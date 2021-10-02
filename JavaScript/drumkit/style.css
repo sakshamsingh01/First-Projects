@@ -1,0 +1,49 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #000;
+    text-align: center;  
+}
+
+.container h1{
+    padding-top: 100px;
+    margin: 0;
+    font-size: 3.5em;
+}
+.key-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.key{
+    height: 80px;
+    width: 80px;
+    border: 2px solid #000;
+    box-shadow: 0px 0px 4px #000;
+    transition: all 0.09s;
+    background: rgba(0,0,0,0.1);
+    background: blur 10px;;
+}
+.key h1{
+    padding-top: 5px;
+    margin: 0;
+    font-size: 3em;
+    color: rgb(233, 219, 25);
+    text-shadow: 0 0 .5rem black;
+}
+.key span{
+   font-weight: 800;
+}
+
+.playing{
+    box-shadow:  0px 0px 8px yellow;
+    transform: scale(1.2,1.2);
+}
