@@ -1,4 +1,5 @@
 # Make sure to follow this simple format
+#make sure you follow this simple step format
 
 1. Create a folder with name of your project
 2. Upload your project and add README.md file
