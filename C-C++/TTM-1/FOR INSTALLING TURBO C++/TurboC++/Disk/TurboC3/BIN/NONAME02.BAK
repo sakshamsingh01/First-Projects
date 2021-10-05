@@ -1,0 +1,12 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{clrscr();
+ float u,t,s,a;
+ cout<<"Welcome in BH world"<<"\n"<<"BH world is trade mark of BH industries"<<"\n"<<"no one has right to copy it"<<"\n"<<"all right reserved"<<"\n"<<"BH cooperation limted";
+ cout<<"\n "<<"\n"<<"\n"<<"Enter the initial velocity of object:-"<<"\t";
+ cin>>u;
+ cout<<"Good!"<<"\n"<<"Now, please enter the total time taken during whole journey:_"<<"\t"<<"\t"<<"\t";
+
+ getch();
+}
