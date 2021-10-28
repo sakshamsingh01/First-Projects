@@ -1,4 +1,8 @@
-public class Demo {
+import java.util.Scanner;
+
+class Demo {
+
+
 
     public static void main(String[] args) {
 
@@ -11,5 +15,9 @@ public class Demo {
        }
 
        System.out.println("Sum of first 10 natural numbers is: "+total);
+
+
+
+
     }
 }
